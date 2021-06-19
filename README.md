@@ -39,6 +39,7 @@ Android 底部导航栏3种 UI 模板
 6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 
 [1]:https://img-blog.csdn.net/2018070712270484?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmZWlfXw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70
+<<<<<<< HEAD
 [2]:https://img-blog.csdn.net/20180707122801964?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmZWlfXw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70
 
 
@@ -91,4 +92,5 @@ bottomBar实现思路挺好，写起来稍微复杂
 Style2Activity与tabbottom一样的思路 通过viewpager实现
 
 方案2 fragmenttabhost 推荐这种写法 
+
 
