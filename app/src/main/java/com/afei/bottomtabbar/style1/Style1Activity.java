@@ -41,10 +41,6 @@ public class Style1Activity extends AppCompatActivity {
         mTextMessage = findViewById(R.id.message);
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-<<<<<<< HEAD
-
-=======
->>>>>>> 2d71208bbae5d7f53ca529f6f9a37ed96ac46038
     }
 
 }

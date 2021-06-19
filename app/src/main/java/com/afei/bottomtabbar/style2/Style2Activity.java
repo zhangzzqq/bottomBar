@@ -72,12 +72,7 @@ public class Style2Activity extends AppCompatActivity {
         }
     };
 
-<<<<<<< HEAD
-    private RadioGroup.OnCheckedChangeListener mOnCheckedChangeListener =
-            new RadioGroup.OnCheckedChangeListener() {
-=======
     private RadioGroup.OnCheckedChangeListener mOnCheckedChangeListener = new RadioGroup.OnCheckedChangeListener() {
->>>>>>> 2d71208bbae5d7f53ca529f6f9a37ed96ac46038
         @Override
         public void onCheckedChanged(RadioGroup group, int checkedId) {
             for (int i = 0; i < group.getChildCount(); i++) {

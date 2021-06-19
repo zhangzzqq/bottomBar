@@ -5,31 +5,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-<<<<<<< HEAD
 import com.demo.bottomnavigationviewdemo.BaseMVPLazyFragment;
-=======
->>>>>>> 2d71208bbae5d7f53ca529f6f9a37ed96ac46038
 import com.demo.bottomnavigationviewdemo.R;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-<<<<<<< HEAD
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.Lifecycle;
-=======
->>>>>>> 2d71208bbae5d7f53ca529f6f9a37ed96ac46038
 
 /**
  * FileName:   HomeFragment
  * Author:     nizonglong
  * CreateTime: 2019/12/2 16:57
  */
-<<<<<<< HEAD
 public class HomeFragment extends BaseMVPLazyFragment {
-=======
-public class HomeFragment extends Fragment {
->>>>>>> 2d71208bbae5d7f53ca529f6f9a37ed96ac46038
+
 
     @Nullable
     @Override
@@ -38,7 +29,6 @@ public class HomeFragment extends Fragment {
     }
 
 
-<<<<<<< HEAD
     @NonNull
     public FragmentTransaction setMaxLifecycle(@NonNull Fragment fragment,
                                                @NonNull Lifecycle.State state) {
@@ -51,6 +41,4 @@ public class HomeFragment extends Fragment {
     public void fetchData() {
 
     }
-=======
->>>>>>> 2d71208bbae5d7f53ca529f6f9a37ed96ac46038
 }
