@@ -78,14 +78,6 @@ public class MainActivity extends AppCompatActivity {
      */
     private void switchMenu(MenuItem item){
         switch (item.getItemId()) {
-            case R.id.navigation_home:
-                item.setIcon(R.drawable.ic_home_selected);
-                mViewPager.setCurrentItem(0);
-                break;
-            case R.id.navigation_show:
-                mViewPager.setCurrentItem(1);
-                item.setIcon(R.drawable.ic_show_selected);
-                break;
             case R.id.navigation_notice:
                 mViewPager.setCurrentItem(2);
                 item.setIcon(R.drawable.ic_notice_selected);

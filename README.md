@@ -43,5 +43,18 @@ Android 底部导航栏3种 UI 模板
 
 
 
+1  viewpager
+
 bottomBar实现思路挺好，写起来稍微复杂
+
+Style2Activity与tabbottom一样的思路 通过viewpager实现
+
+ //为防止隔页切换时,滑过中间页面的问题,去除页面切换缓慢滑动的动画效果
+        mViewPager.setCurrentItem(0, false);
+        mTitle.setText("One");
+
+
+2 fragmenttabHost
+
+一般就是这几种
 
