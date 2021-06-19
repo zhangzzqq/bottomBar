@@ -1,3 +1,4 @@
+include ':tabhost'
 include ':appgooglebottom'
 include ':lazyload'
 include ':drawerlayout'

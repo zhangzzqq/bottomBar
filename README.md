@@ -80,9 +80,15 @@ AndroidX ViewPager 懒加载模式 两种方式：
 
 懒加载实现 BaseMVPLazyFragment
 
+
+
+方案1 view怕个他+fragment 
 viewpager实现方式推荐 下面几个任何一个
 appgooglebottom
 
 bottomBar实现思路挺好，写起来稍微复杂
 
 Style2Activity与tabbottom一样的思路 通过viewpager实现
+
+方案2 fragmenttabhost 推荐这种写法 
+
