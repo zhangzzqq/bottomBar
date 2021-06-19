@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.demo.bottomnavigationviewdemo.BaseMVPLazyFragment;
 import com.demo.bottomnavigationviewdemo.R;
 
 import androidx.annotation.NonNull;
@@ -18,7 +19,7 @@ import androidx.lifecycle.Lifecycle;
  * Author:     nizonglong
  * CreateTime: 2019/12/2 16:57
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends BaseMVPLazyFragment {
 
     @Nullable
     @Override
@@ -35,5 +36,8 @@ public class HomeFragment extends Fragment {
     }
 
 
+    @Override
+    public void fetchData() {
 
+    }
 }

@@ -68,3 +68,21 @@ AndroidX ViewPager 懒加载模式 两种方式：
 
 
 相关链接：[AndroidX更新后ViewPager懒加载的前世今生](https://juejin.cn/post/6844904042024419336)
+
+
+
+1.3 懒加载概括
+
+当页面可见的时候，才加载当前页面。
+没有打开的页面，就不会预加载。
+说白了，懒加载就是可见的时候才去请求数据。
+
+
+懒加载实现 BaseMVPLazyFragment
+
+viewpager实现方式推荐 下面几个任何一个
+appgooglebottom
+
+bottomBar实现思路挺好，写起来稍微复杂
+
+Style2Activity与tabbottom一样的思路 通过viewpager实现

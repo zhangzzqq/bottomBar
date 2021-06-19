@@ -1,3 +1,4 @@
+include ':appgooglebottom'
 include ':lazyload'
 include ':drawerlayout'
 include ':tabfragment'
